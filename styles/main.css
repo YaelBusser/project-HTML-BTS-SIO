@@ -10,9 +10,6 @@
     font-weight: normal;
     font-style: normal;
 }
-html, body{
-    height: 100%;
-}
 body{
     width: 100%;
     height: 100%;
@@ -25,10 +22,6 @@ body{
 ::-webkit-scrollbar-thumb{
     border: 1px solid black;
     background-color: rgba(0,0,0,0.6);
-}
-main{
-    min-height: 100%;
-    position: relative;
 }
 .flex{
     display: flex;
@@ -69,8 +62,9 @@ main{
     height: 10em;
     border: 3px solid white;
     border-radius: 100%;
-    animation: 1s linear infinite alternate couleur, 5s linear infinite tourner;
-    background-color: rgba(0,0,0,0.3);
+    animation: 1s linear infinite alternate couleur, 5s linear infinite tourner, 3s infinite alternate background;;
+    background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
+    background-size: 500% 500%;
 }
 @keyframes couleur{
     from{
@@ -106,12 +100,19 @@ main{
     margin-left: -0.48em;
     margin-top: -0.48em;
     width: 100%;
-    height: 30em;
+    height: 33em;
     border: 1px solid black;
-    background: url("../images/background.jpg") no-repeat;
-    background-size: cover;
+    background-color: black;
 }
-.presentation p{
+@keyframes background{
+    0%{
+        background-position: 0% 0%;
+    }
+    100%{
+        background-position: 100% 100%;
+    }
+}
+.presentation p{    
     font-family: font2;
     color: white;
     text-align: center;
@@ -147,7 +148,7 @@ main{
     font-weight: normal;
 }
 .profil{
-    margin-top: 0em;
+    margin-top: 5em;
     width: 50em;
     height: 10em;
     border: 1px solid black;
@@ -158,12 +159,41 @@ footer{
     margin-top: 5em ;
     left: 0;
     width: 100%; 
-    background: url("../images/background.jpg");
     margin-bottom: -0.47em;
+    background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
+    background-size: 500% 500%;
+    animation: 3s infinite alternate background;
 }
 footer p{
     text-align: center;
     font-family: font2;
     font-size: 1.2em;
     color: white;
+}
+#img-facebook{
+    width: 4em;
+    height: 4em;
+}
+#img-insta{
+    width: 4em;
+    height: 4em;
+}
+#img-linkdin{
+    width: 4em;
+    height: 4em;
+}
+#img-twitter{
+    width: 4em;
+    height: 4em;
+}
+.reseaux-sociaux{
+    margin-top: 3.5em;
+}
+.reseaux-sociaux img{
+    padding-right: 1em;
+}
+@media screen and (max-width: 712px){
+    .presentation img{
+        margin-top: -2em;
+    }
 }
