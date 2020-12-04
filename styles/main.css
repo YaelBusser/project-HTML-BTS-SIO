@@ -159,6 +159,7 @@ body{
     border: 1px solid black;
 }
 footer{
+    display: inline-block;
     position: absolute;
     margin: 0;
     margin-top: 5em;
