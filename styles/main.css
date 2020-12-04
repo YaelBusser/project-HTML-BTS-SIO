@@ -10,7 +10,6 @@
     font-weight: normal;
     font-style: normal;
 }
-
 body{
     margin: 0;
     width: 100%;
@@ -164,7 +163,7 @@ footer{
     margin: 0;
     margin-top: 5em;
     left: 0;
-    width: 100%; 
+    width: 100.1%; 
     margin-bottom: -2em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
     background-size: 500% 500%;
@@ -193,11 +192,13 @@ footer p{
     height: 4em;
 }
 .reseaux-sociaux{
-    margin-top: 2em;
+    margin-top: 1.6em;
 }
 .reseaux-sociaux img{
     margin-right: 1em;
     transition: all 0.3s ease-out;
+    border: 2px solid transparent;
+    border-radius: 100%;
 }
 .reseaux-sociaux img:hover{
     filter: invert(100%); 
