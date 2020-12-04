@@ -40,7 +40,7 @@ body{
     margin-top: 5em;
     cursor: pointer;
     transform: scale(1.25);
-    transition: all 0.3s ease-out; /* Ici, on applique une animation à tous les éléments de box de durée 0.5 secondes de façon à rendre fluide l'animation dans ce conteneur */ 
+    transition: all 0.3s ease-out; /* Ici, on applique une animation à tous les éléments de box de durée 0.3 secondes de façon à rendre fluide l'animation dans ce conteneur */ 
 }
 .header-box:hover{
     transform: scale(1.5); /* au passage de la souris, la taille des éléments de la box seront augmentés de 1,25 */
@@ -105,6 +105,9 @@ body{
     border: 1px solid black;
     background-color: black;
 }
+.presentation a{
+    text-decoration: none;
+}
 @keyframes background{
     0%{
         background-position: 0% 0%;
@@ -125,28 +128,30 @@ body{
     font-weight: bold;
     color: #37E1CF;
 }
-.presentation a{
-    text-decoration: none;
-}
-.presentation a button{
-    width: 15em;
-    height: 5em;
-    font-weight: normal;
-    border-radius: 5px 5px 5px 5px;
-    border: 0px solid black;
-    cursor: pointer;
+.bouton-cv{
+    display: inline-block;
+    padding: 1.5em;
+    padding-left: 3em;
+    padding-right: 3em;
+    background-color: white;
     transition: all 0.3s ease-out;
+    cursor: pointer;
+    border-radius: 5px 5px 5px 5px;
+    font-family: font2;
+    color: black;   
+    border: 1px solid black;
 }
-.presentation a button:hover{
+.bouton-cv span{
+    font-size: 1.3em;
+}
+.bouton-cv:hover{
     background-color: rgba(0,0,0,0.5);
     color: white;
     border: 1px solid white;
     transform: scale(1.2);
 }
-.presentation button span{
-    font-family: font2;
-    font-size: 1.50em;
-    font-weight: normal;
+.positionBoutonCv{
+    margin-top: 1em;
 }
 .profil{
     margin-top: 15em;
@@ -174,7 +179,6 @@ footer p{
 #img-facebook{
     width: 4em;
     height: 4em;
-    transition: all 0.3s ease-out;
 }
 #img-insta{
     width: 4em;
@@ -189,7 +193,7 @@ footer p{
     height: 4em;
 }
 .reseaux-sociaux{
-    margin-top: 3.5em;
+    margin-top: 2em;
 }
 .reseaux-sociaux img{
     margin-right: 1em;
@@ -200,7 +204,7 @@ footer p{
     -webkit-filter: invert(100%); 
 }
 @media screen and (max-width: 712px){
-    .presentation img{
-        margin-top: -2em;
+    .positionBoutonCv{
+        margin-top: -1em;
     }
 }
