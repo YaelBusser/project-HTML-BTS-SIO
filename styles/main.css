@@ -10,6 +10,7 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body{
     width: 100%;
     height: 100%;
@@ -148,7 +149,7 @@ body{
     font-weight: normal;
 }
 .profil{
-    margin-top: 5em;
+    margin-top: 15em;
     width: 50em;
     height: 10em;
     border: 1px solid black;
@@ -156,10 +157,10 @@ body{
 footer{
     position: absolute;
     margin: 0;
-    margin-top: 5em ;
+    margin-top: 5em;
     left: 0;
     width: 100%; 
-    margin-bottom: -0.47em;
+    margin-bottom: -2em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
     background-size: 500% 500%;
     animation: 3s infinite alternate background;
