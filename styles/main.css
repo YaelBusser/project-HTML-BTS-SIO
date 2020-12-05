@@ -152,12 +152,6 @@ body{
 .positionBoutonCv{
     margin-top: 1em;
 }
-.profil{
-    margin-top: 15em;
-    width: 50em;
-    height: 10em;
-    border: 1px solid black;
-}
 footer{
     display: inline-block;
     position: absolute;
@@ -209,4 +203,128 @@ footer p{
     .positionBoutonCv{
         margin-top: -1em;
     }
+}
+.container1{
+    margin-top: 5em;
+    width: 60%;
+    border-radius: 5px 5px 5px 5px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1em;
+    box-shadow: 0 0.2em 0.7em 0.1em #cccccc;
+}
+.profil{
+    width: 100%;
+    font-family: font2;
+    text-align: justify;
+}
+.profil h2{
+    margin-top: 1em;
+    font-family: font1;
+    font-size: 2em;
+}
+.profil a{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+.name-profil{
+    font-weight: bold;
+}
+.skills{
+    width: 100%;
+    margin-left: 10em;
+    font-family: font2;
+    text-align: justify;
+}
+.skills h2{
+    margin-top: 1em;
+    font-family: font1;
+    font-size: 2em;
+}
+.box-skill{
+    width: 15em;
+    height: 2em;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px 5px 5px 5px;
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.skills h3{
+    position: absolute;
+    margin-left: -5em;
+    margin-top: -1.5em;
+}
+.html{
+    width: 14em;
+    height: 2em;
+    background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
+    background-size: 500% 500%;
+    animation: 3s linear infinite alternate background;
+    border-radius: 5px 5px 5px 5px;
+}
+.css{
+    width: 13.5em;
+    height: 2em;
+    background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
+    background-size: 500% 500%;
+    animation: 3s linear infinite alternate background;
+    border-radius: 5px 5px 5px 5px;
+}
+.php{
+    width: 8em;
+    height: 2em;
+    background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
+    background-size: 500% 500%;
+    animation: 3s linear infinite alternate background;
+    border-radius: 5px 5px 5px 5px;
+}
+.sql{
+    width: 8.5em;
+    height: 2em;
+    background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
+    background-size: 500% 500%;
+    animation: 3s linear infinite alternate background;
+    border-radius: 5px 5px 5px 5px;
+}
+.javascript{
+    width: 6em;
+    height: 2em;
+    background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
+    background-size: 500% 500%;
+    animation: 3s linear infinite alternate background;
+    border-radius: 5px 5px 5px 5px;
+}
+.python{
+    width: 7.5em;
+    height: 2em;
+    background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
+    background-size: 500% 500%;
+    animation: 3s linear infinite alternate background;
+    border-radius: 5px 5px 5px 5px;
+}
+.poo{
+    width: 3em;
+    height: 2em;
+    background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
+    background-size: 500% 500%;
+    animation: 3s linear infinite alternate background;
+    border-radius: 5px 5px 5px 5px;
+}
+.english{
+    width: 9em;
+    height: 2em;
+    background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
+    background-size: 500% 500%;
+    animation: 3s linear infinite alternate background;
+    border-radius: 5px 5px 5px 5px;
+}
+.french{
+    width: 13em;
+    height: 2em;
+    background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
+    background-size: 500% 500%;
+    animation: 3s linear infinite alternate background;
+    border-radius: 5px 5px 5px 5px;
 }
