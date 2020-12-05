@@ -63,9 +63,7 @@ body{
     height: 10em;
     border: 3px solid white;
     border-radius: 100%;
-    animation: 1s linear infinite alternate couleur, 5s linear infinite tourner, 3s infinite alternate background;;
-    background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
-    background-size: 500% 500%;
+    animation: 1s linear infinite alternate couleur, 5s linear infinite tourner;
 }
 @keyframes couleur{
     from{
@@ -106,14 +104,6 @@ body{
 }
 .presentation a{
     text-decoration: none;
-}
-@keyframes background{
-    0%{
-        background-position: 0% 0%;
-    }
-    100%{
-        background-position: 100% 100%;
-    }
 }
 .presentation p{    
     font-family: font2;
@@ -160,9 +150,7 @@ footer{
     left: 0;
     width: 100.1%; 
     margin-bottom: -2em;
-    background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
-    background-size: 500% 500%;
-    animation: 3s infinite alternate background;
+    background-color: black;
 }
 footer p{
     text-align: center;
@@ -238,6 +226,7 @@ footer p{
     text-align: justify;
 }
 .skills h2{
+    margin-left: -2em;
     margin-top: 1em;
     font-family: font1;
     font-size: 2em;
@@ -248,17 +237,25 @@ footer p{
     border: 1px solid rgba(0,0,0,0.3);
     border-radius: 5px 5px 5px 5px;
     margin-top: 1em;
-    margin-left: auto;
-    margin-right: auto;
 }
 .skills h3{
-    position: absolute;
-    margin-left: -5em;
-    margin-top: -1.5em;
+    width: 5em;
+    margin-left: -3em;
+}
+@keyframes background{
+    0%{
+        background-position: 0% 0%;
+    }
+    100%{
+        background-position: 100% 100%;
+    }
+}
+.skills .flex div{
+    margin-left: -0.1em;
 }
 .html{
     width: 14em;
-    height: 2em;
+    height: 2.1em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
     background-size: 500% 500%;
     animation: 3s linear infinite alternate background;
@@ -282,7 +279,8 @@ footer p{
 }
 .sql{
     width: 8.5em;
-    height: 2em;
+    height: 2.1em;
+    margin-top: -0.1em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
     background-size: 500% 500%;
     animation: 3s linear infinite alternate background;
@@ -290,7 +288,7 @@ footer p{
 }
 .javascript{
     width: 6em;
-    height: 2em;
+    height: 2.1em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
     background-size: 500% 500%;
     animation: 3s linear infinite alternate background;
@@ -298,7 +296,8 @@ footer p{
 }
 .python{
     width: 7.5em;
-    height: 2em;
+    height: 2.1em;
+    margin-top: -0.05em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
     background-size: 500% 500%;
     animation: 3s linear infinite alternate background;
@@ -322,7 +321,8 @@ footer p{
 }
 .french{
     width: 13em;
-    height: 2em;
+    height: 2.1em;
+    margin-top: -0.1em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
     background-size: 500% 500%;
     animation: 3s linear infinite alternate background;
