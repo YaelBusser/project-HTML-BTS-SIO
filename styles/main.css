@@ -194,7 +194,7 @@ footer p{
 }
 .container1{
     margin-top: 5em;
-    width: 60%;
+    width: 50em;
     border-radius: 5px 5px 5px 5px;
     margin-left: auto;
     margin-right: auto;
@@ -202,7 +202,7 @@ footer p{
     box-shadow: 0 0.2em 0.7em 0.1em #cccccc;
 }
 .profil{
-    width: 100%;
+    width: 35em;
     font-family: font2;
     text-align: justify;
 }
@@ -220,13 +220,12 @@ footer p{
     font-weight: bold;
 }
 .skills{
-    width: 100%;
-    margin-left: 10em;
+    width: 35em;
     font-family: font2;
     text-align: justify;
+    margin-left: 5em;
 }
 .skills h2{
-    margin-left: -2em;
     margin-top: 1em;
     font-family: font1;
     font-size: 2em;
@@ -240,7 +239,7 @@ footer p{
 }
 .skills h3{
     width: 5em;
-    margin-left: -3em;
+    margin-left: 1em;
 }
 @keyframes background{
     0%{
@@ -250,8 +249,8 @@ footer p{
         background-position: 100% 100%;
     }
 }
-.skills .flex div{
-    margin-left: -0.1em;
+.box-skill div{
+    margin-left: -0.1em
 }
 .html{
     width: 14em;
