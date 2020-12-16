@@ -45,6 +45,7 @@ body{
     transform: scale(1.5); /* au passage de la souris, la taille des éléments de la box seront augmentés de 1,25 */
 }
 .header-box h1{  
+    width: 6em;
     position: absolute;
     font-family: font1;
     font-size: 1.5em;
@@ -373,5 +374,43 @@ footer p{
     }
     .skills h2{
         margin-left: -1.3em;
+    }
+}
+@media screen and (max-width: 450px){
+    .container1{
+        width: 15em;
+    }
+    .profil{
+        width: 15em;
+    }
+    .skills h2{
+        margin-left: 0;
+    }
+    .skills .box-skill{
+        width: 8em;
+    }
+    .html{
+        width: 7em;
+    }
+    .css{
+        width: 6em;
+    }
+    .php{
+        width: 4em;
+    }
+    .sql{
+        width: 4em;
+    }
+    .javascript{
+        width: 3em;
+    }
+    .python{
+        width: 4.5em;
+    }
+    .poo{
+        width: 2em;
+    }
+    .english{
+        width: 5em;
     }
 }
