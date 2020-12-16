@@ -253,7 +253,7 @@ footer p{
     margin-left: -0.1em
 }
 .html{
-    width: 14em;
+    width: 12em;
     height: 2.1em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
     background-size: 500% 500%;
@@ -261,7 +261,7 @@ footer p{
     border-radius: 5px 5px 5px 5px;
 }
 .css{
-    width: 13.5em;
+    width: 10em;
     height: 2em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
     background-size: 500% 500%;
@@ -326,4 +326,52 @@ footer p{
     background-size: 500% 500%;
     animation: 3s linear infinite alternate background;
     border-radius: 5px 5px 5px 5px;
+}
+@media screen and (max-width: 875px){
+    .container1{
+        width: 30em;
+    }
+    .flexx{
+        flex-direction: column;
+    }
+    .profil{
+        width: 30em;
+    }
+    .skills{
+        width: 20em;
+    }
+    .skills .flex{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skills h2{
+        margin-left: -2.5em;
+    }
+    .html{
+        margin-top: -0.1em;
+    }
+    .css{
+        height: 33px;
+    }
+    .javascript{
+        margin-top: -0.1em;
+    }
+}
+.flexx{
+    display: flex;
+}
+@media screen and (max-width: 600px){
+    .container1{
+        width: 25em;
+    }
+    .profil{
+        width: 25em;
+    }
+    .skills{
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .skills h2{
+        margin-left: -1.3em;
+    }
 }
