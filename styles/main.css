@@ -148,7 +148,7 @@ footer{
     margin: 0;
     margin-top: 5em;
     left: 0;
-    width: 100.1%; 
+    width: 100.2%; 
     margin-bottom: -2em;
     background-color: black;
 }
@@ -253,7 +253,7 @@ footer p{
     margin-left: -0.1em
 }
 .html{
-    width: 12em;
+    width: 10em;
     height: 2.1em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
     background-size: 500% 500%;
@@ -261,7 +261,7 @@ footer p{
     border-radius: 5px 5px 5px 5px;
 }
 .css{
-    width: 10em;
+    width: 9em;
     height: 2em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
     background-size: 500% 500%;
@@ -269,7 +269,7 @@ footer p{
     border-radius: 5px 5px 5px 5px;
 }
 .php{
-    width: 8em;
+    width: 6em;
     height: 2em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
     background-size: 500% 500%;
@@ -277,7 +277,7 @@ footer p{
     border-radius: 5px 5px 5px 5px;
 }
 .sql{
-    width: 8.5em;
+    width: 6em;
     height: 2.1em;
     margin-top: -0.1em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
@@ -286,7 +286,7 @@ footer p{
     border-radius: 5px 5px 5px 5px;
 }
 .javascript{
-    width: 6em;
+    width: 4em;
     height: 2.1em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
     background-size: 500% 500%;
@@ -294,7 +294,7 @@ footer p{
     border-radius: 5px 5px 5px 5px;
 }
 .python{
-    width: 7.5em;
+    width: 7em;
     height: 2.1em;
     margin-top: -0.05em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
@@ -303,7 +303,7 @@ footer p{
     border-radius: 5px 5px 5px 5px;
 }
 .poo{
-    width: 3em;
+    width: 2em;
     height: 2em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
     background-size: 500% 500%;
@@ -311,7 +311,7 @@ footer p{
     border-radius: 5px 5px 5px 5px;
 }
 .english{
-    width: 9em;
+    width: 8em;
     height: 2em;
     background: linear-gradient(-45deg, #2B59BF, #2BA3BF, #26C064, #99C026, #C09D26, #C02626, #BC26C0);
     background-size: 500% 500%;
