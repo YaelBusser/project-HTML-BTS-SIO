@@ -11,7 +11,6 @@
     font-style: normal;
 }
 body{
-    margin: 0;
     width: 100%;
     height: 100%;
     overflow-x: hidden;
@@ -53,44 +52,12 @@ body{
     margin-top: -60%;
     margin-left: 1em;
 }
-@keyframes title{
-    100%{
-        width: 100%;
-    }
-}
-
 .cercle{
     width: 10.75em; /* Je ne met pas les mêmes dimentions afin d'avoir un effet oeuf sur le cercle lors de l'animation */
     height: 10em;
     border: 3px solid white;
     border-radius: 100%;
     animation: 1s linear infinite alternate couleur, 5s linear infinite tourner;
-}
-@keyframes couleur{
-    from{
-        box-shadow: 
-        0 0 0px #F1C13F,
-        0 0 0px #3FD4EB,
-        0 0 0px #97F137,
-        0 0 0px #F53232
-        ;
-    }
-    to{
-        box-shadow: 
-        -5px 0 0px #F1C13F,
-        0 -5px 0px #3FD4EB,
-        0 5px 0px #97F137,
-        5px 0 0px #F53231
-        ;
-    }
-}
-@keyframes tourner{
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
 }
 .center{
     margin-left: auto;
@@ -188,11 +155,6 @@ footer p{
     filter: invert(100%); 
     -webkit-filter: invert(100%); 
 }
-@media screen and (max-width: 712px){
-    .positionBoutonCv{
-        margin-top: -1em;
-    }
-}
 .container1{
     margin-top: 5em;
     width: 50em;
@@ -241,14 +203,6 @@ footer p{
 .skills h3{
     width: 5em;
     margin-left: 1em;
-}
-@keyframes background{
-    0%{
-        background-position: 0% 0%;
-    }
-    100%{
-        background-position: 100% 100%;
-    }
 }
 .box-skill div{
     margin-left: -0.1em
@@ -328,7 +282,59 @@ footer p{
     animation: 3s linear infinite alternate background;
     border-radius: 5px 5px 5px 5px;
 }
-@media screen and (max-width: 875px){
+.flexx{
+    display: flex;
+}
+@keyframes title{
+    100%{
+        width: 100%;
+    }
+}
+@keyframes couleur{
+    from{
+        box-shadow: 
+        0 0 0px #F1C13F,
+        0 0 0px #3FD4EB,
+        0 0 0px #97F137,
+        0 0 0px #F53232
+        ;
+    }
+    to{
+        box-shadow: 
+        -5px 0 0px #F1C13F,
+        0 -5px 0px #3FD4EB,
+        0 5px 0px #97F137,
+        5px 0 0px #F53231
+        ;
+    }
+}
+@keyframes tourner{
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes background{
+    0%{
+        background-position: 0% 0%;
+    }
+    100%{
+        background-position: 100% 100%;
+    }
+}
+@media screen and (max-width: 712px){
+    .positionBoutonCv{
+        margin-top: -1em;
+    }
+}
+@media screen and (max-width: 388px){
+    .positionBoutonCv{
+        margin-top: -3em;
+    }
+}
+@media only screen and (max-width: 875px){
     .container1{
         width: 30em;
     }
@@ -358,10 +364,7 @@ footer p{
         margin-top: -0.1em;
     }
 }
-.flexx{
-    display: flex;
-}
-@media screen and (max-width: 600px){
+@media only screen and (max-width: 600px){
     .container1{
         width: 25em;
     }
@@ -376,7 +379,7 @@ footer p{
         margin-left: -1.3em;
     }
 }
-@media screen and (max-width: 450px){
+@media only screen and (max-width: 450px){
     .container1{
         width: 15em;
     }
